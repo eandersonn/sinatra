@@ -7,8 +7,10 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
+  #show first page show all the assignments uploaded
   get "/" do
     erb :welcome
   end
+
 
 end
