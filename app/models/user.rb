@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-    has_secured_password
     has_many :assignments
+    has_secure_password
 end
